@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background: #f1f5f8;
+  display: flex;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  width: 600px;
+  background-color: white;
+  margin: 8rem auto 0;
+  border-radius: .7rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3{
+  margin-top: 0;
+  color: #063251;
+  font-size: 1.75rem;
+}
+
+input {
+  width: 27rem;
+  height: 2rem;
+  border: none;
+  background-color: #f1f5f8;
+  border-radius: 5px 0 0 5px;
+  padding-left: 1em;
+  color: #617d98;
+  margin-bottom: 1em;
+}
+button {
+  background-color: #a5d5f8;
+  border: none;
+  height: 2rem;
+  border-radius: 0 5px 5px 0;
+  width: 5rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+
+}
+button:hover{
+  background-color: rgb(73,166,233);
+  color: white;
+}
+
+p{
+  color: #e66b6b;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  letter-spacing: 2px;
+
+}
+p:hover{
+  color: #bb2525
+}
+
+article{
+  padding: 0.75rem;
+  letter-spacing: 1.5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+article:hover{
+  background-color: #f1f5f8;
+
+}
+img{
+  width: .7em;
+  cursor: pointer;
+}
+
+.edit{
+  filter: invert(100%) sepia(64%) saturate(1749%) hue-rotate(52deg) brightness(94%) contrast(91%);
+}
+
+.trash{
+  filter: invert(47%) sepia(82%) saturate(710%) hue-rotate(320deg) brightness(102%) contrast(78%);
+}
+
+.edit:hover{
+  filter: invert(80%) sepia(50%) saturate(4459%) hue-rotate(72deg) brightness(83%) contrast(91%);
+}
+
+.trash:hover{
+  filter: invert(19%) sepia(57%) saturate(3430%) hue-rotate(345deg) brightness(96%) contrast(102%);
+}
